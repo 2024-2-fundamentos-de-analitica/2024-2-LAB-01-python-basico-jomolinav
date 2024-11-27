@@ -5,7 +5,7 @@ solo puede utilizar las funciones y librerias basicas de python. No puede
 utilizar pandas, numpy o scipy.
 """
 
-
+import csv
 def pregunta_03():
     """
     Retorne la suma de la columna 2 por cada letra de la primera columna como
@@ -15,3 +15,16 @@ def pregunta_03():
     [('A', 53), ('B', 36), ('C', 27), ('D', 31), ('E', 67)]
 
     """
+    archivo = open("files\input\data.csv") 
+    file = csv.reader(archivo, delimiter= "\t")
+
+    acumulados = {}
+    for fila in file:
+                letra = fila[0]
+                valor = int(fila[1])
+                if letra in acumulados:
+                    acumulados[letra] += valor
+                else:
+                    acumulados[letra] = valor
+    resultado = sorted(acumulados.items())
+    return(resultado)
