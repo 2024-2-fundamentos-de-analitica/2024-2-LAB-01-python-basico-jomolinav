@@ -25,7 +25,7 @@ def pregunta_07():
      (9, ['A', 'B', 'E', 'A', 'A', 'C'])]
 
     """
-    archivo = open("files\input\data.csv") 
+    archivo = open("files/input/data.csv") 
 
 
     lbase = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] 

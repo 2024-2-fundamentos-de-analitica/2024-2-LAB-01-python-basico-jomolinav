@@ -22,7 +22,7 @@ def pregunta_10():
 
 
     """
-    archivo = open("files\input\data.csv") 
+    archivo = open("files/input/data.csv")  
     file = csv.reader(archivo, delimiter= "\t")
     lfin = []
     for a in file:

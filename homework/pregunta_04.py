@@ -26,7 +26,7 @@ def pregunta_04():
      ('12', 3)]
 
     """
-    archivo = open("files\input\data.csv") 
+    archivo = open("files/input/data.csv")  
     file = csv.reader(archivo, delimiter= "\t")
 
     acumulados = {}

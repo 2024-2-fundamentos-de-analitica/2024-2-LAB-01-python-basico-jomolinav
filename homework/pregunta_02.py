@@ -15,7 +15,7 @@ def pregunta_02():
     [('A', 8), ('B', 7), ('C', 5), ('D', 6), ('E', 14)]
 
     """
-    archivo = open("files\input\data.csv") 
+    archivo = open("files/input/data.csv") 
     file = csv.reader(archivo, delimiter= ",")
     a = []
     l = []

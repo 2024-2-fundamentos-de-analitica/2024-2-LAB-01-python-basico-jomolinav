@@ -27,7 +27,7 @@ def pregunta_06():
 
     """
     lfinal = []
-    archivo = open("files\input\data.csv") 
+    archivo = open("files/input/data.csv") 
     file = csv.reader(archivo, delimiter= "\t")
     lbase = ["aaa", "bbb", "ccc", "ddd", "eee", "fff", "ggg", "hhh", "iii", "jjj"]
     lcod =[]

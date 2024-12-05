@@ -17,7 +17,7 @@ def pregunta_11():
 
 
     """
-    archivo = open("files\input\data.csv") 
+    archivo = open("files/input/data.csv")  
     file = csv.reader(archivo, delimiter= "\t")
 
     lbase = ["a", "b", "c", "d", "e", "f", "g"]

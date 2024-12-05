@@ -26,7 +26,7 @@ def pregunta_09():
     """
     dbase = {"aaa" : 0, "bbb":0, "ccc":0, "ddd":0, "eee":0, "fff":0, "ggg":0, "hhh":0, "iii":0, "jjj":0} 
 
-    archivo = open("files\input\data.csv") 
+    archivo = open("files/input/data.csv")  
     file = csv.reader(archivo, delimiter= "\t") 
     lbvalores = []
     for z in file: 
