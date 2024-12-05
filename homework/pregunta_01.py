@@ -16,7 +16,7 @@ def pregunta_01():
 
     """
     a = 0
-    archivo = open("files\input\data.csv") 
+    archivo = open("files/input/data.csv") 
     file = csv.reader(archivo, delimiter= ",")
     for f in file:
         print(f)
